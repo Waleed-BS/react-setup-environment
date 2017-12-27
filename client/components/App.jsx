@@ -3,6 +3,7 @@
 */
 import React from 'react';
 import ChildComponent from './ChildComponent.jsx';
+import './App.css'
 
 const App = () => {
   const componentLocation = (event) => {
@@ -11,7 +12,7 @@ const App = () => {
 
   return (
 
-    <div className="App" style={{ textAlign: 'center' }}>
+    <div className="App">
       <button
         href="#"
         onClick={componentLocation}

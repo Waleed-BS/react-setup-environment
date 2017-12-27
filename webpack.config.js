@@ -29,7 +29,15 @@ module.exports = {
     loaders: [ /* list of loaders: https://webpack.github.io/docs/list-of-loaders.html */
       /* babel-loader goes through and transpiles every file that ends with a ".js" or ".jsx" */
       { test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/ },
-      { test: /\.jsx$/, loader: 'babel-loader', exclude: /node_modules/ }
+      { test: /\.jsx$/, loader: 'babel-loader', exclude: /node_modules/ },
+      {
+        test: /\.css$/,
+        use: [
+          { loader: 'style-loader' },
+          { loader: 'css-loader' }
+        ],
+        exclude: /node_modules/
+      }
     ]
   },
   plugins: [HtmlWebpackPluginConfig]
