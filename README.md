@@ -15,7 +15,7 @@ This setup environment includes:
 $ cd Word_Families_Online
 $ npm install
 ```
-### Start Development Environment:
+### Start Webpack Dev Server:
 ```
 $ npm start
 ```
