@@ -12,7 +12,7 @@ This setup environment includes:
 ## Usage
 ### Install Dependencies:
 ```
-$ cd Word_Families_Online
+$ cd react-setup-environment
 $ npm install
 ```
 ### Start Webpack Dev Server:
