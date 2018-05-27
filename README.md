@@ -13,6 +13,8 @@ This setup environment includes:
 
 ## Documentation
 
+These instructions will get you a copy of the project up and running on your local machine.
+
 ### Prerequisites
 
 You only need [**Node.js**](https://nodejs.org/en/) installed.
