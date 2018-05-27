@@ -38,3 +38,6 @@ Run your webpack developer server.
 ```
 $ npm start
 ```
+
+## License
+The contents of this repository are covered under the [MIT License](https://github.com/Waleed-BS/react-setup-environment/blob/master/LICENSE).
